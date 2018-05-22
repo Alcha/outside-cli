@@ -1,0 +1,23 @@
+{
+  "name": "outside-cli",
+  "version": "0.0.1",
+  "description": "A \"real-world\" cli app that'll be developed along side an article from dev.to.",
+  "main": "index.js",
+  "bin": {
+    "outside": "./bin/outside"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Alcha <alcha@hasslefree.solutions> (https://hasslefree.solutions/)",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "22.4.4",
+    "standard": "11.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "minimist": "^1.2.0",
+    "ora": "^2.1.0"
+  }
+}
