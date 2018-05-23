@@ -1,6 +1,6 @@
 {
   "name": "outside-cli",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A \"real-world\" cli app that'll be developed along side an article from dev.to.",
   "main": "index.js",
   "bin": {
@@ -11,6 +11,19 @@
   },
   "author": "Alcha <alcha@hasslefree.solutions> (https://hasslefree.solutions/)",
   "license": "MIT",
+  "homepage": "https://github.com/Alcha/outside-cli",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alcha/outside-cli.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "keywords": [
+    "weather",
+    "forecast"
+  ],
+  "preferGlobal": true,
   "devDependencies": {
     "jest": "22.4.4",
     "standard": "11.0.1"
